@@ -1,0 +1,677 @@
+body {
+	margin: 0 auto;
+}
+main {
+	margin: auto;
+}
+main p, .mogo p {
+	color: #a0a0a0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+header {
+	background-image: linear-gradient(to top, transparent, #e88182), linear-gradient(to bottom, transparent, #efd98a), url("../images/Layer_15.png");
+	background-size: cover;
+	background-position: 50% 0%;
+	font-family: 'Montserrat';
+}
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+nav, .header-text, .button-header {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 25px;
+}
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.logo-header {
+	margin-right: 350px;
+}
+.header-menu li:first-child a {
+	border-bottom: 3px solid #fce38a;
+}
+.header-menu li a {
+	padding-bottom: 10px;
+}
+.header-menu li a:hover {
+	border-bottom: 3px solid #fce38a;
+}
+.icons {
+	padding: 0;
+}
+.header-text {
+	text-align: center;
+	margin-top: 150px;
+}
+.header-text h1 {
+	font-size: 150px;
+	margin-top: 25px;
+	margin-bottom: 0;
+	line-height: 0.9;
+}
+#template {
+	font-size: 72px;
+	text-transform: none;
+	font-family: 'Kaushan Script', arial;
+}
+.learn-more {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+.learn-more {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+.button-header {
+	display: inline-block;
+	width: 200px;
+ 	padding: 8px;
+	color: #fff;
+    border: 3px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.bottom-menu {
+	display: flex;
+	justify-content: center;
+	margin-top: 130px;
+}
+.bottom-menu ul {
+	padding-left: 0;
+}
+.bottom-menu ul li {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.bottom-menu ul li div {
+	width: 180px;
+	height: 4px;
+	background-color: #ffffff;
+}
+.bottom-menu ul li p {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.bottom-menu ul li:first-child div {
+	background: linear-gradient(90deg, rgba(243, 129, 129, 1) 25%, rgba(255, 255, 255, 1) 25%);
+}
+header hr {
+	width: 5%;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	border: 2px solid white;
+}
+.headline:first-child {
+	padding-top: 90px;
+}
+.headline {
+	text-align: center;
+	padding-top: 110px;
+}
+.headline p {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 90px;
+}
+.headline h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-size: 30px;
+	font-weight: bold;
+}
+.headline span {
+	font-family: 'Kaushan Script', arial;
+	font-size: 24px;
+}
+article {
+	margin-bottom: 90px;
+}
+article hr {
+	width: 5%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: 2px solid #f38181;
+}
+.about-us-imgs {
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}
+.about-us-imgs > div img {
+	position: relative;
+}
+.about-us-imgs div div {
+	position: absolute;
+	margin-top: -155px;
+	margin-left: 150px;
+	text-align: center;
+}
+.about-us-imgs div div p {
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.about-us-img {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.blocks {
+	width: 100%;
+}
+.numbers {
+	background: #95e1d3;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 	0px;
+}
+.numbers li {
+	display: inline-block;
+	text-transform: uppercase;
+	border-right: 1px solid white;
+	width: 230px;
+	padding-bottom: 75px;
+	padding-top: 75px;
+	color: #ffffff;
+	font-family: 'Montserrat';
+}
+.numbers li span {
+	font-size: 72px;
+	font-weight: bold;
+}
+.numbers li p {
+	margin-bottom: 0px;
+	color: #ffffff;
+	font-weight: 400;
+}
+.numbers li:first-child {
+	border-left: 1px solid white;
+}
+h2 {
+	text-transform: uppercase;
+}
+.line {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.line:first-child {
+	margin-bottom: 0px;
+}
+.work-with section hr {
+	width: 1060px;
+	border: 0.6px solid gainsboro;
+	margin-top: 45px;
+}
+.branches {
+	display: flex;
+	width: 340px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.branches div span {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	font-size: 14px;
+}
+.branches p {
+	margin-bottom: 0px;
+}
+.icons_sevices {
+	margin-right: 25px;
+}
+.devices {
+	background-image: url(../images/Layer_45.png);
+	background-position: 50% 0;
+	background-size: cover;
+}
+.phones {
+}
+.phone-big {
+	position: relative;
+	text-align: center;
+	margin-top: -30px;
+}
+.phone-little {
+	position: absolute;
+	margin-top: -380px;
+	margin-left: 59%;
+}
+.services .headline {
+	margin-top: 0px !important;
+	padding-top: 50px;
+}
+.what-we-do {
+	display: flex;
+	justify-content: center;
+}
+.we-do-text > div {
+	display: flex;
+	align-items: center;
+	padding: 5px 0 5px 40px; 
+	background-repeat: no-repeat, no-repeat;
+	background-position: 10px center, calc(100% - 10px) center;
+	margin-bottom: 10px;
+	height: 36px;
+	border: 1px solid gainsboro;
+}
+.we-do-photography {
+	background-image: url('../images/PICTURE.png'), url('../images/ARROW _ DOWN.png');
+}
+.we-do-creativity {
+	background-image: url('../images/EQUALIZER.png'), url('../images/ARROW _ DOWN.png');
+}
+.we-do-web-design {
+	background-image: url('../images/BULLSEYE.png'), url('../images/ARROW _ DOWN.png'); 
+}
+.we-do-text span {
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+.we-do-text {
+	width: 500px;
+	padding-left: 40px;
+}
+.Jon-Doe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #f8f8f8;
+}
+.arrow-right {
+	margin-left: 75px;
+}
+.arrow-left {
+	margin-right: 75px;
+}
+.Jon-Doe-icon {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+	border: 3px solid #95e1d3;
+	margin-right: 30px;
+}
+.Jon-Doe-quote p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	margin: 0px;
+}
+.Jon-Doe-quote span {
+	font-family: 'Kaushan Script', arial;
+	font-size: 24px;
+}
+.photographers {
+	display: flex;
+	justify-content: center;
+}
+.photographers div {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.photographers div span {
+	color: #a0a0a0;
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 15px;
+}
+.box-for-pic {
+	box-shadow: 10px 10px 0 #95e1d3;
+	margin-top: -10px;
+}
+.photographer, .post span {
+	text-transform: uppercase;
+	color: #000000;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 600;
+}
+.logos {
+	background: #f8f8f8;
+	padding: 60px 0 60px 0;
+	width: 100%;
+}
+.kind-of-photographer, .photographer, .logos  {
+	text-align: center;
+}
+.img-gallery, .Joshua-Earle {
+	display: flex;
+	justify-content: center;
+}
+.img-column {
+	display: flex;
+	flex-direction: column;
+}
+.Joshua-Earle {
+	width: 100%;
+	margin-bottom: 90px;
+}
+.Joshua-Earle span {
+	font-family: 'Kaushan Script', arial;
+	font-size: 24px;
+}
+.quote-joshua hr {
+	width: 70px;
+	margin: 20px 10px 20px 0;
+	border: 2px solid #f38181;
+}
+.quote-joshua {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+.quote-joshua p {
+	width: 600px;
+	font-size: 24px;
+} 
+.quote-joshua div {
+	margin-right: 35px;
+	margin-left: 35px;
+}
+.avatar-and-text {
+	display: flex;
+	align-items: center;
+} 
+.avatar-and-text div div {
+	display: flex;
+	align-items: center;
+	margin-left: 0;
+}
+.clients-comments, .avatar-and-comment {
+	display: flex;	
+}
+.clients-comments {
+	justify-content: center;
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+.clients-comments:first-child {
+	padding-top: 15px;
+}
+.comments-our-clients {
+	padding-bottom: 30px;
+}
+.designers hr {
+	width: 20%;
+	border: 2px solid #f38181;
+	margin: 20px 0;
+}
+.designers p:first-child {
+	text-transform: uppercase;
+	color: #000000;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 600;
+}
+.designers span, .post p, .post div span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	color: #a0a0a0;
+}
+.avatar-and-comment div p {
+	width: 330px;
+}
+.avatar-and-comment img {
+	padding-right: 30px;
+}
+.avatar-and-comment {
+	padding-right: 40px;
+}
+.reviews-people {
+	background-image: url('../images/Layer 53.png');
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	margin-bottom: 0px;
+}
+.blog-stories {
+	display: flex;
+	justify-content: center;
+}
+.blog-stories .blog-story {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.blog-stories .headline {
+	padding-top: 0px;
+}
+.post {
+	width: 380px;
+}
+.post p {
+	font-style: normal !important;
+}
+.post hr {
+	width: 380px;
+	border: 0.6px solid gainsboro;
+	margin-top: 45px !important;
+	margin: 0 !important;
+	margin-bottom: 15px !important;
+}
+.post div {
+	display: flex;
+	align-items: center;
+}
+.post div img, .photo-matthew {
+	position: relative;
+}
+.date-of-pic {
+	position: absolute;
+	background: #95e1d3;
+	height: 70px;
+	width: 60px;
+	margin-top: 75px;
+	margin-left: -10px;
+}
+.soc-icons-matthew ul li {
+	display: inline-block;
+	background: #fce38a;
+	border-right: 1px solid #f38181;
+	width: 57px;
+	height: 57px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.soc-icons-matthew ul li:first-child {
+	background: #f38181;
+}
+.soc-icons-matthew ul li:last-child {
+	border-right: none;
+}
+.soc-icons-matthew ul {
+	position: absolute;
+	width: 225px;
+	height: 50px;
+	margin-top: -270px;
+	margin-left: 70px;
+	padding-inline-start: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.date-of-pic span {
+	color: #fff !important;
+	margin-left: 10px;
+	margin-top: -10px;
+	font-family: 'Montserrat' !important;
+	font-size: 32px !important;
+	font-weight: bold !important;
+	font-style: normal !important;
+}
+.date-of-pic p {
+	color: #fff;
+	margin-top: 60px;
+	margin-left: -50px;
+	font-family: 'Roboto', sans-serif !important;
+	font-style: italic !important;
+	font-size: 15px !important;
+}
+.post div span {
+	padding-left: 5px;
+	padding-right: 20px;
+}
+.map {
+	background-image: url('../images/Layer 59.png');
+	background-repeat: no-repeat;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	color: #f38181;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.map div:first-child {
+	margin-bottom: 15px;
+}
+.map div {
+	margin-bottom: 20px;
+}
+.map div hr {
+	width: 70px;
+	border: 2px solid #f38181;
+}
+footer {
+	font-family: 'Montserrat';
+	margin-top: 75px;
+}
+footer article {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	width: 85%;
+	margin: auto;
+}
+footer article section {
+	margin: auto;
+}
+footer section h3 {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 14px;
+}
+footer article section {
+	margin: 0 15px 0 15px;
+}
+footer hr {
+	width: 83%;
+	border: 0.6px solid gainsboro;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+footer cite {
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-style: normal;
+	margin-bottom: 30px;
+}
+footer cite span {
+	color: #f38181;
+}
+.mogo {
+	width: 37.5%;
+}
+.blogs {
+	width: 36.5%;
+	min-width: 390px;
+}
+.instagram {
+	width: 26%;
+	min-width: 275px;
+}
+.mogo hr {
+	width: 400px;
+	border: 0.6px solid gainsboro;
+	margin: 20px 0 20px 0;
+}
+.mogo div {
+	display: flex;
+	align-items: center;	
+}
+.mogo div ul {
+	padding-left: 20px;
+}
+.mogo div ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 15px;
+}
+.mogo form {
+	margin-top: 25px;
+}
+.mogo form input {
+	height: 40px;
+	border: 1px solid gainsboro;
+	box-sizing: border-box;
+	vertical-align: middle !important;
+}
+#input-email {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	color: #cccccc;
+	padding-left: 10px;
+	width: 230px;
+}
+#button-subscribe {
+	background: #95e1d3;
+	border: none;
+	height: 40px;
+	align-items: flex-start !important;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	padding: 1px 25px 1px 25px;
+}
+#button-subscribe:hover {
+	cursor: pointer;
+}
+.post-footer {
+	display: flex;
+	margin-bottom: 30px;
+}
+.post-footer img {
+	margin-right: 20px;
+}
+.post-footer div span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #a0a0a0;
+}
+.post-footer div p {
+	font-family: 'Montserrat';
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
